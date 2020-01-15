@@ -2,7 +2,7 @@
 state("GoatGame-Win32-Shipping")
 {
 // This value will most likely be different in your findings.
-    int text : 0x009175A4, 0x0;
+    int mmo : 0x009175A4, 0x0;
 }
 
 
@@ -15,7 +15,7 @@ startup
 
 isLoading
 {
-    if (current.text == 1)
+	if (current.mmo != 0)
     {
         return true;
     } else
