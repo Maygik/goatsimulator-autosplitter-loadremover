@@ -1,5 +1,3 @@
-// Simple Autosplitter - Finished
-
 // State
 state("GoatGame-Win32-Shipping")
 {
